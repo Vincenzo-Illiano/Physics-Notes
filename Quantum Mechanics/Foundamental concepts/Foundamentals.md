@@ -1,0 +1,1 @@
+Introductory notes on the foundations of quantum mechanics. Work in progress
