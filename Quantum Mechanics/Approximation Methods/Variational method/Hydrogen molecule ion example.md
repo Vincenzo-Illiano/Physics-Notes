@@ -1,6 +1,6 @@
 Parent: [[Variational method]]
 
-The **hydrogen molecular ion**, $\mathrm H_2^+$, consists of two protons and one electron. We apply the [[Variational method]] to estimate its energy and determine whether molecular binding occurs.
+The **hydrogen molecular ion**, $\mathrm H_2^+$, consists of two protons and one electron. In this note, we will apply the [[Variational method]] to estimate its energy and determine whether molecular binding occurs.
 
 ## Hamiltonian and trial state
 
@@ -8,13 +8,15 @@ In the **Born-Oppenheimer approximation**, we calculate the electronic state wit
 $$
 r_A=|\mathbf r|,\qquad r_B=|\mathbf r-\mathbf R|.
 $$
-Including proton-proton repulsion, the Hamiltonian at fixed $R$ is
+Which represent the distance from the first and the second proton respectively. Including proton-proton repulsion, the Hamiltonian at fixed $R$ is
 $$
 H=-\frac{\hbar^2}{2m}\nabla^2
 -\frac{e^2}{4\pi\varepsilon_0}\left(\frac1{r_A}+\frac1{r_B}\right)
 +\frac{e^2}{4\pi\varepsilon_0R}.
 $$
-Choose a **linear combination of atomic orbitals**:
+Note that ${}\nabla^{2}{}$ refers only to the electron, as we are ignoring the kinetic energy of the protons. 
+
+As a trial state, which we need in order to apply the variational method, we will choose a *linear combination of atomic orbitals[^1]:*
 $$
 \Psi(\mathbf r)=A[\phi_A(\mathbf r)+\phi_B(\mathbf r)],
 $$
@@ -28,20 +30,20 @@ are normalized hydrogen ground-state orbitals, each with energy
 $$
 E_1^{\mathrm H}=-\frac{e^2}{8\pi\varepsilon_0a_0}\simeq-13.6\,\mathrm{eV}.
 $$
-The electron is in a superposition of states centered on the two protons. We calculate the energy as a function of $R$, then vary $R$ to find the equilibrium separation.
+The idea is that, when in the ground state, we expect the electron to be in an orbit which mixes the orbits it would have around the first and the second proton respectively. We calculate the energy as a function of $R$, then vary $R$ to find the equilibrium separation.
 
 ## Normalization
 
-Define the real **overlap integral**
+In order for the trial state to be normalized, we need to find a value for the constant ${}A{}$ such that ${}\left< \Psi | \Psi \right> = 1{}$. To do this, we define the real **overlap integral**
 $$
 N=\langle\phi_A|\phi_B\rangle.
 $$
-Then
+Then, if we choose ${}A{}$ to be real:
 $$
 1=\langle\Psi|\Psi\rangle
-=|A|^2(2+2N),
-\qquad
-\boxed{A=\frac1{\sqrt{2(1+N)}}.}
+=|A|^2(2+2N)
+\implies
+{A=\frac1{\sqrt{2(1+N)}}.}
 $$
 
 ## Energy expectation value
@@ -64,32 +66,39 @@ $$
 &\quad-|A|^2\frac{e^2}{4\pi\varepsilon_0}
 \left[
 \left\langle\phi_A\left|\frac1{r_B}\right|\phi_A\right\rangle
-+\left\langle\phi_A\left|\frac1{r_A}\right|\phi_B\right\rangle
-+\left\langle\phi_B\left|\frac1{r_B}\right|\phi_A\right\rangle
++\left\langle\phi_A\left|\frac1{r_A}\right|\phi_B\right\rangle +\\
+\qquad \qquad \left\langle\phi_B\left|\frac1{r_B}\right|\phi_A\right\rangle
 +\left\langle\phi_B\left|\frac1{r_A}\right|\phi_B\right\rangle
 \right].
 \end{aligned}
 $$
-The four matrix elements form two equal pairs by interchange of the proton centers. Define the dimensionless integrals
+By symmetry (but it could be probably shown more rigorously by explicitly doing all the calculations), we expect that: 
+$$
+\begin{aligned}
+ & \left< \phi_{A} \left| \frac{1}{r_{B}} \right| \phi_{A} \right> = \left< \phi_{B} \left| \frac{1}{r_{A}} \right| \phi_{B} \right>,   \\[0.8em]
+ & \left< \phi_{A} \left| \frac{1}{r_{A}} \right| \phi_{B} \right> = \left< \phi_{B} \left| \frac{1}{r_{B}} \right| \phi_{A} \right>.
+\end{aligned}
+$$
+This, defining the dimensionless integrals
 $$
 S=a_0\left\langle\phi_A\left|\frac1{r_B}\right|\phi_A\right\rangle,
 \qquad
 D=a_0\left\langle\phi_A\left|\frac1{r_A}\right|\phi_B\right\rangle,
 \qquad x=\frac R{a_0}.
 $$
-Thus, using $e^2/(4\pi\varepsilon_0a_0)=-2E_1^{\mathrm H}$,
+We have that, using $e^2/(4\pi\varepsilon_0a_0)=-2E_1^{\mathrm H}$,
 $$
 \begin{aligned}
 \langle H\rangle
 &=E_1^{\mathrm H}+4|A|^2E_1^{\mathrm H}(S+D)
 -\frac{2E_1^{\mathrm H}}x\\
-&=\boxed{E_1^{\mathrm H}\left[1+\frac{2(S+D)}{1+N}-\frac2x\right].}
+&={E_1^{\mathrm H}\left[1+\frac{2(S+D)}{1+N}-\frac2x\right].}
 \end{aligned}
 $$
 
 ## Evaluating the integrals
 
-### Coulomb integral $S$
+#### Coulomb integral $S$
 
 Take spherical coordinates centered on proton $A$, with the polar axis pointing towards $B$. The angular integral is
 $$
@@ -103,7 +112,7 @@ $$
 S
 &=4\left[\frac1x\int_0^x t^2e^{-2t}\,dt
 +\int_x^\infty te^{-2t}\,dt\right]\\
-&=\boxed{\frac1x-\left(1+\frac1x\right)e^{-2x}.}
+&={\frac1x-\left(1+\frac1x\right)e^{-2x}.}
 \end{aligned}
 $$
 
@@ -129,7 +138,7 @@ N
 \int_{-1}^1(\mu^2-\nu^2)\,d\nu\\
 &=\frac{x^3}{2}\int_1^\infty
 \left(\mu^2-\frac13\right)e^{-x\mu}\,d\mu\\
-&=\boxed{e^{-x}\left(1+x+\frac{x^2}{3}\right).}
+&={e^{-x}\left(1+x+\frac{x^2}{3}\right).}
 \end{aligned}
 $$
 Similarly,
@@ -139,7 +148,7 @@ D
 &=\frac{x^2}{2}\int_1^\infty e^{-x\mu}\,d\mu
 \int_{-1}^1(\mu-\nu)\,d\nu\\
 &=x^2\int_1^\infty\mu e^{-x\mu}\,d\mu
-=\boxed{(1+x)e^{-x}.}
+={(1+x)e^{-x}.}
 \end{aligned}
 $$
 
@@ -147,7 +156,7 @@ $$
 
 Substitution gives the explicit energy curve
 $$
-\boxed{
+{
 E(x)=E_1^{\mathrm H}\left[
 1+2\frac{\dfrac1x-\left(1+\dfrac1x\right)e^{-2x}+(1+x)e^{-x}}
 {1+\left(1+x+\dfrac{x^2}{3}\right)e^{-x}}
@@ -184,8 +193,10 @@ $$
 
 At small $R$, proton-proton repulsion makes the energy diverge to $+\infty$. At large $R$, $N,D\to0$ and $S\sim1/x$, so $E\to E_1^{\mathrm H}$: the system separates into a hydrogen atom and a proton.
 
-**A negative total energy alone does not establish molecular binding.** The relevant dissociation threshold is $E_1^{\mathrm H}$, rather than zero. Our minimum lies below that threshold, giving a binding-energy estimate
+From this calculation, we can estimate the binding energy between the two protons:
 $$
 \boxed{D_e=E_1^{\mathrm H}-E_{\min}\simeq1.76\,\mathrm{eV}.}
 $$
-The variational principle guarantees that the exact fixed-nuclei ground-state energy at this separation is no higher than our trial value. Thus this calculation predicts a bound molecular energy well. Here $D_e$ is the well depth; nuclear vibrational and rotational energies are not included.
+The variational principle guarantees that the exact fixed-nuclei ground-state energy at this separation is no higher than our trial value. This is useful because even if we don't know for sure that the electron will be in state ${}\Psi{}$, we still know that regardless of its state, its energy when in the ground state is going to be less than the energy we calculated.
+
+[^1]: Note that choosing a ${}+{}$ sign here is an arbitrary choice. It can be shown that, if we chose a ${}-{}$ sign instead, we would have found an unstable ground state, whereas choosing a complex phase factor would have made no difference.
