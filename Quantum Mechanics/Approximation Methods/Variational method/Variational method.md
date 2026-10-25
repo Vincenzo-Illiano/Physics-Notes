@@ -1,3 +1,5 @@
+Parent: [[Approximation methods]]
+
 The **variational method** is an approximation method ([[Approximation methods]]) to estimate the ground energy of a system.
 
 ## Variational principle

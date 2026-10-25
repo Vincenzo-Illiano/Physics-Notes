@@ -1,3 +1,5 @@
+Parent: [[Variational method]]
+
 In this note, we will apply the [[Variational method]] to the harmonic oscillator.
 
 Consider the Hamiltonian for a harmonic oscillator:

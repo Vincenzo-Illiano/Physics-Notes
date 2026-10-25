@@ -2,7 +2,7 @@
 
 Parent: [[Numerical differential equations]]
 
-An **initial value problem** specifies a differential equation and the required data at one initial value of the independent variable. For $y'=f(t,y)$ this is $y(t_0)=y_0$. Unlike [[Boundary value problems]], the data are not imposed at separate boundaries. The independent variable is often time, but this is not part of the mathematical definition.
+An **initial value problem** specifies a differential equation and the required data at one initial value of the independent variable. For $y'=f(t,y)$ this is $y(t_0)=y_0$. Unlike boundary value problems, the data are not imposed at separate boundaries. The independent variable is often time, but this is not part of the mathematical definition.
 
 ## Reducing higher-order equations
 
