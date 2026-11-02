@@ -5,7 +5,8 @@ Parent: [[Computational physics]]
 ## Topics
 
 - [[Probability foundations]] — distributions, conditional probability, expectation values and variance.
-- [[Sampling of random variables]] — rejection sampling and inverse transforms.
+- [[Random number generation]] — generation of random numbers in computers.
+- [[Sampling of random variables]] — rejection sampling, inverse transforms and Markov-Chain Monte Carlo.
 - [[Markov chains]] — introductory Markov-chain concepts.
 
 ## Basic approach
@@ -17,6 +18,6 @@ Assuming we can sample from the required distribution $p(x)$, a Monte Carlo appr
 3. Store or accumulate the required values.
 4. Repeat, then estimate averages, variances or other observables from the samples.
 
-Ordinary software random-number generators are **pseudorandom**: deterministic algorithms produce sequences designed to behave statistically like random samples. Computers can also obtain randomness from physical sources, so true randomness is not fundamentally impossible on a computer. Sampling a nonuniform or high-dimensional target remains a separate algorithmic problem, dealt in [[Sampling of random variables]].
+Ordinary software random-number generators are **pseudorandom**: deterministic algorithms produce sequences designed to behave statistically like random samples. This is discussed in [[Random number generation]]. Sampling a nonuniform or high-dimensional target remains a separate algorithmic problem, dealt in [[Sampling of random variables]].
 
 [[The Ising model]] is a physical application in these notes. Specialized Monte Carlo approaches can also treat some differential equations, but random sampling alone is not a general replacement for ordinary time-integration methods.
