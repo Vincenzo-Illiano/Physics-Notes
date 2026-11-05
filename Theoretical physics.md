@@ -1,8 +1,9 @@
-# Theoretical physics
+%%This is just a placeholder and needs to be properly written%%
 
-**Theoretical physics** uses mathematical models to describe physical systems and predict their behaviour. Computational methods make it possible to study these models when analytical solutions are unavailable or impractical.
+**Theoretical physics** uses mathematical models to describe physical systems and predict their behaviour.
 
 ## Subjects in this vault
 
-- [[Computational Physics/Computational physics|Computational physics]] — numerical representations, algorithms and simulations of physical models.
-- [[Quantum Mechanics/QM|Quantum mechanics]] — the existing quantum mechanics notes.
+- [[Computational Physics/Computational physics|Computational physics]] 
+- [[Quantum Mechanics/QM|Quantum mechanics]] 
+- [[Thermodynamics and statistical physics]]
