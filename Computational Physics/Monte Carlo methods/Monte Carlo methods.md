@@ -8,6 +8,7 @@ Parent: [[Computational physics]]
 - [[Random number generation]] — generation of random numbers in computers.
 - [[Sampling of random variables]] — rejection sampling, inverse transforms and Markov-Chain Monte Carlo.
 - [[Markov chains]] — introductory Markov-chain concepts.
+- [[Monte Carlo integration]] — usage of Monte Carlo methods for numerical integration 
 
 ## Basic approach
 
