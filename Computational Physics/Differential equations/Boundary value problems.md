@@ -1,4 +1,4 @@
-# Boundary value problems
+%%This note needs to be reviewed%%
 
 Parent: [[Numerical differential equations]]
 
@@ -23,7 +23,7 @@ This is an **ordinary** differential equation because it has one independent var
 
 The method discretizes the equation and solves the resulting matrix system. Set $x_i=ih$, $i=0,\ldots,n+1$, with $h=1/(n+1)$. The unknowns are the $n$ interior values; the endpoint values are prescribed.
 
-Using [[Discretization and numerical differentiation]],
+Using discretization and numerical differentiation,
 $$
 -\frac{u_{i-1}-2u_i+u_{i+1}}{h^2}=f_i+O(h^2).
 $$
@@ -51,4 +51,4 @@ $$
 
 The matrix is **tridiagonal** because the central difference couples only neighbouring samples. If the prescribed boundary values are nonzero, their contributions are moved to the first and last right-hand-side entries.
 
-Although the formal solution is $\mathbf v=A^{-1}\mathbf g$, numerical algorithms normally solve the system without explicitly forming the inverse. [[Matrix equations]] describes how to exploit its tridiagonal structure.
+Although the formal solution is $\mathbf v=A^{-1}\mathbf g$, numerical algorithms normally solve the system without explicitly forming the inverse. 

@@ -1,6 +1,6 @@
-# Jacobi rotation method
+%%This note needs to be reviewed%%
 
-Parent: [[Computational linear algebra]]
+Parent: [[Matrix equations]]
 
 The **Jacobi rotation method** finds eigenvalues and eigenvectors of a real symmetric matrix by successively eliminating off-diagonal elements.
 

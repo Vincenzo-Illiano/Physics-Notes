@@ -1,4 +1,4 @@
-# LU decomposition
+%%This note needs to be reviewed%%
 
 Parent: [[Computational linear algebra]]
 
@@ -46,7 +46,7 @@ x_i=\frac{1}{u_{ii}}\left(w_i-\sum_{j=i+1}^n u_{ij}x_j\right),
 \qquad i=n,\ldots,1.
 $$
 
-Each triangular solve costs $O(n^2)$. The factorization is still required initially, so the advantage is especially useful for repeated solves. See [[Matrix equations]] for elimination and tridiagonal structure.
+Each triangular solve costs $O(n^2)$. The factorization is still required initially, so the advantage is especially useful for repeated solves.
 
 ## Determinants
 

@@ -1,4 +1,4 @@
-# Numerical differential equations
+%%This note needs to be reviewed%%
 
 Parent: [[Computational physics]]
 
@@ -6,5 +6,3 @@ Numerical methods approximate differential equations using finite data. The loca
 
 - [[Boundary value problems]] — finite differences for the one-dimensional Poisson equation.
 - [[Initial value problems]] — reduction to first order, Euler and predictor–corrector methods.
-- [[Runge-Kutta methods]] — classical fourth-order integration and coupled equations.
-- [[Physical initial value problem algorithms]] — leapfrog and Verlet methods.

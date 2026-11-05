@@ -1,4 +1,4 @@
-# Matrix equations
+%%This note needs to be reviewed%%
 
 Parent: [[Computational linear algebra]]
 

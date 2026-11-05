@@ -10,4 +10,4 @@ In this project we:
 - learn to use classes in C++;
 - explore further Eigen functionality.
 
-The physical application is the [[Penning trap]]. Its field configuration and Lorentz force are described in that separate model note.
+The physical application is the [[Computational Physics/Differential equations/Initial value problems/Penning trap]]. Its field configuration and Lorentz force are described in that separate model note.

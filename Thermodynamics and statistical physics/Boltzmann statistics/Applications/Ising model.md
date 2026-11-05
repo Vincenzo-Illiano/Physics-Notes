@@ -1,19 +1,12 @@
-# The Ising model
+%%This note is highly incomplete and needs review!%%
 
-Parent: [[Computational physical models]]
-
-The **two-dimensional Ising model**, also called the **Lenz–Ising model**, describes a square lattice of spins $s_i\in\{-1,+1\}$. Each spin interacts with its nearest neighbours horizontally and vertically, not diagonally. We consider ferromagnetic coupling and no external magnetic field.
-
-The system is in thermal contact with a bath at temperature $T$. Thermal fluctuations allow spin configurations to change. Increasing temperature makes energetically unfavourable fluctuations less strongly suppressed; a particular spin-flip probability also depends on the energy change and the chosen dynamics or sampling algorithm.
-
+Parent: [[Applications of Boltzmann statistics]]
 ## Microstates and observables
 
 Let $L$ be the number of sites along each side, so the number of spins is $N=L^2$. A **microstate** specifies every spin:
-
 $$
 \mathbf S=(s_1,s_2,\ldots,s_N).
 $$
-
 The energy is
 
 $$
@@ -50,7 +43,7 @@ $$
 p_E(E;T)=\frac{g(E)e^{-\beta E}}{Z}.
 $$
 
-These distributions determine averages such as $\langle E\rangle$ and $\langle M\rangle$, from which thermodynamic quantities such as heat capacity and magnetic susceptibility can be obtained. [[Monte Carlo methods]] provide a numerical sampling approach.
+These distributions determine averages such as $\langle E\rangle$ and $\langle M\rangle$, from which thermodynamic quantities such as heat capacity and magnetic susceptibility can be obtained. 
 
 ## Temperature and lattice size
 

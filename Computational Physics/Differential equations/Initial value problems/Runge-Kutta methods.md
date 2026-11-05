@@ -1,6 +1,6 @@
-# Runge–Kutta methods
+%%This note needs to be reviewed%%
 
-Parent: [[Numerical differential equations]]
+Parent: [[Initial value problems]]
 
 **Runge–Kutta methods** solve [[Initial value problems]] by evaluating slopes at several stages within each step. The Euler predictor–corrector described there is the second-order Heun method. Here we consider the classical **fourth-order Runge–Kutta method (RK4)**.
 

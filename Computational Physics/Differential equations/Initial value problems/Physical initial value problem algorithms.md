@@ -1,6 +1,6 @@
-# Physical initial value problem algorithms
+%%This note needs to be reviewed%%
 
-Parent: [[Numerical differential equations]]
+Parent: [[Initial value problems]]
 
 **Leapfrog** and **Verlet** are useful for mechanical [[Initial value problems]], especially equations of the form
 
@@ -16,7 +16,7 @@ A time-symmetric method reverses a step when the step size is reversed, includin
 
 For a separable Hamiltonian $H(q,p)=T(p)+V(q)$, the standard fixed-step leapfrog/Verlet splitting is **symplectic**: it preserves the canonical symplectic structure and consequently phase-space volume. It does not exactly conserve the original energy in general, nor does symplecticity alone guarantee all statistical properties.
 
-Forward Euler, Heun and classical RK4 are generally not time-symmetric or symplectic. This statement concerns these explicit methods, not every [[Runge-Kutta methods|Runge–Kutta method]]. For forward Euler, a step followed by a negative step gives
+Forward Euler, Heun and classical RK4 are generally not time-symmetric or symplectic. This statement concerns these explicit methods, not every Runge-Kutta method. For forward Euler, a step followed by a negative step gives
 
 $$
 \hat y_i=y_i+h\bigl[f(t_i,y_i)-f(t_i+h,y_{i+1})\bigr],
@@ -77,4 +77,4 @@ $$
 
 Substituting the exact solution into this unnormalized recurrence leaves a defect $O(h^4)$. This does not imply third-order global accuracy: after division by $h^2$, the differential-equation residual is $O(h^2)$, and position Verlet is globally second-order with consistent starting data.
 
-Position and velocity Verlet produce the same position recurrence in exact arithmetic with consistent initialization. Velocity Verlet also supplies velocities; position Verlet needs separate reconstruction. These methods are not directly applicable to a velocity-dependent Lorentz acceleration without modification, so the general RK4 formulation is useful for the [[Penning trap]].
+Position and velocity Verlet produce the same position recurrence in exact arithmetic with consistent initialization. Velocity Verlet also supplies velocities; position Verlet needs separate reconstruction. These methods are not directly applicable to a velocity-dependent Lorentz acceleration without modification, so the general RK4 formulation is useful for the [[Computational Physics/Differential equations/Initial value problems/Penning trap]].

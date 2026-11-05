@@ -1,6 +1,6 @@
-# Iterative methods
+%%This note needs to be reviewed%%
 
-Parent: [[Computational linear algebra]]
+Parent: [[Matrix equations]]
 
 Iterative methods solve [[Matrix equations]] by refining a guess for $A\mathbf x=\mathbf b$. They can be useful for large sparse matrices because they avoid storing dense factors. Their convergence depends on the matrix and method; they are not automatically simpler or faster than direct solvers.
 
@@ -45,8 +45,6 @@ x_i^{(n+1)}=\frac{1}{a_{ii}}\left(b_i-\sum_{j\neq i}a_{ij}x_j^{(n)}\right).\tag{
 $$
 
 All new components use the old iterate. A stationary linear iteration has the affine form $\mathbf x^{(n+1)}=T\mathbf x^{(n)}+\mathbf c$. The **error**, rather than the iterate itself, obeys $\mathbf e^{(n+1)}=T\mathbf e^{(n)}$. Such an iteration converges from every initial guess if and only if its **spectral radius** satisfies $\rho(T)<1$. For Jacobi, $T=-D^{-1}(L+U)$.
-
-This Jacobi method solves a linear system; [[Jacobi rotation method]] solves an eigenvalue problem.
 
 ## Gauss–Seidel (GS)
 

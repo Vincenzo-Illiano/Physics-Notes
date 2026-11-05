@@ -1,21 +1,11 @@
 Parent: [[Variational method]]
+Model: [[Helium atom]]
 
 In this note, we will apply the [[Variational method]] to more precisely determine the ground state energy for the **helium atom**.
 
 ## Hamiltonian
 
-The Hamiltonian is
-$$
-H=-\frac{\hbar^2}{2m}\left(\nabla_1^2+\nabla_2^2\right)
--\frac{e^2}{4\pi\varepsilon_0}\left(\frac{2}{r_1}+\frac{2}{r_2}\right)
-+V_{ee}, \tag 1
-$$
-where $\nabla_1$ and $\nabla_2$ act on the coordinates of the first and second electron, respectively. The **electron-electron interaction** potential is
-$$
-V_{ee}=\frac{e^2}{4\pi\varepsilon_0}
-\frac{1}{|\mathbf r_1-\mathbf r_2|}.
-$$
-In order to use the variational method, we need to choose a trial function. One useful option might be to use the trial function for the hamiltonian without the interaction term. In this case, the ground-state spatial wavefunction is the product of two hydrogen-like ground-state wavefunctions with nuclear charge $z=2$:
+In order to use the variational method, we need to choose a trial function. One useful option might be to use the trial function for the hamiltonian without the interaction term (for an expression of the Hamiltonian ${}H{}$, see [[Helium atom]]). In this case, the ground-state spatial wavefunction is the product of two hydrogen-like ground-state wavefunctions with nuclear charge $z=2$:
 $$
 \psi(\mathbf r_1,\mathbf r_2)
 =\psi(\mathbf r_1)\psi(\mathbf r_2)

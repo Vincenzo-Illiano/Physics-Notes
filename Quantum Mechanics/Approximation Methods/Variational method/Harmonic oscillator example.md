@@ -1,4 +1,5 @@
 Parent: [[Variational method]]
+Model: [[Quantum harmonic oscillator]]
 
 In this note, we will apply the [[Variational method]] to the harmonic oscillator.
 
