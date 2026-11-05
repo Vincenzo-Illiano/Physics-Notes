@@ -1,6 +1,6 @@
 %%This note needs to be reviewed%%
 
 Parent: [[Monte Carlo methods]]
-Model: [[Ising model]]
+Model: [[Physical models/The Ising model]]
 
 

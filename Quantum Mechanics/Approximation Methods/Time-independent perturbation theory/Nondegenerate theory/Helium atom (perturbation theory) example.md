@@ -1,5 +1,5 @@
 Parent: [[Nondegenerate time-independent perturbation theory]]
-Model: [[Helium atom]]
+Model: [[The Helium atom]]
 
 In this note, we will look at the example of the Helium atom using non degenerate time-indipendent perturbation theory.
 
@@ -8,7 +8,7 @@ $$
 H=H_0+\lambda V_{ee},\qquad
 V_{ee}=\frac{e^2}{4\pi\varepsilon_0|\mathbf r_1-\mathbf r_2|}.
 $$
-Here $H_0$ describes the two noninteracting electrons in the field of a nucleus of charge $+2e$ (see [[Helium atom]]). We set $\lambda=1$ after computing the correction.
+Here $H_0$ describes the two noninteracting electrons in the field of a nucleus of charge $+2e$ (see [[The Helium atom]]). We set $\lambda=1$ after computing the correction.
 
 ## First-order ground-state energy
 

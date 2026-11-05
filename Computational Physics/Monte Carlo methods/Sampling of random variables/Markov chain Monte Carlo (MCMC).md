@@ -57,7 +57,7 @@ Only target-density ratios are needed. If $p(x)=\widetilde p(x)/Z$, then
 $$
 \frac{p(x')}{p(x_i)}=\frac{\widetilde p(x')}{\widetilde p(x_i)}.
 $$
-The unknown normalizing constant cancels, provided the target is normalizable. This is useful when $Z$ is difficult to compute, as in [[The Ising model]].
+The unknown normalizing constant cancels, provided the target is normalizable. This is useful when $Z$ is difficult to compute, as in [[The Ising model with Monte Carlo methods]].
 
 For positive forward and reverse target-weighted proposal densities, detailed balance fixes the ratio
 $$

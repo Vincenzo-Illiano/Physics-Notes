@@ -6,5 +6,5 @@ The **two-dimensional Ising model**, also called the **Lenz–Ising model**, des
 The system is in thermal contact with a bath at temperature $T$. Thermal fluctuations allow spin configurations to change. Increasing temperature makes energetically unfavourable fluctuations less strongly suppressed; a particular spin-flip probability also depends on the energy change and the chosen dynamics or sampling algorithm.
 
 ## Topics
-- [[The Ising model|Here]] we discuss how to simulate the Ising model using Markov Chain Monte Carlo methods
-- [[Thermodynamics and statistical physics/Boltzmann statistics/Applications/Ising model|Here]] we discuss the model from a statistical physics point of view, making use of Boltzmann statistics
+- [[The Ising model with Monte Carlo methods|Here]] we discuss how to simulate the Ising model using Markov Chain Monte Carlo methods
+- [[The Ising model with Boltzmann statistics|Here]] we discuss the model from a statistical physics point of view, making use of Boltzmann statistics

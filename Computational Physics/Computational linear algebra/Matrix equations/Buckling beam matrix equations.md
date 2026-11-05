@@ -1,7 +1,7 @@
 Parent: [[Matrix equations]]
-Model: [[Physical models/Devices/Buckling beam|Buckling beam]]
+Model: [[The Buckling beam|The Buckling beam]]
 
-In this note, we will discuss how to turn eq. (1) in [[Physical models/Devices/Buckling beam|Buckling beam]] into a matrix equation, in order to solve the equation numerically.
+In this note, we will discuss how to turn eq. (1) in [[The Buckling beam|The Buckling beam]] into a matrix equation, in order to solve the equation numerically.
 
 Using $\xi=x/L$ and a consistently scaled deflection, gives
 $$

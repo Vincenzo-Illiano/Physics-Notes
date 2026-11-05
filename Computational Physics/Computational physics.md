@@ -10,7 +10,6 @@ Parent: [[Theoretical physics]]
 - [[Computational linear algebra]] — linear systems, matrix factorizations and eigenvalue problems.
 - [[Numerical differential equations]] — boundary value problems, initial value problems and time integration.
 - [[Monte Carlo methods]] — probability, random sampling and Markov chains.
-- [[Computational physical models]] — the buckling beam, Penning trap and Ising model studied in these notes.
 
 The primary notes introduce each topic and link to its detailed notes. Detailed notes link back to their immediate topic, with additional links where the mathematical connection is useful.
 

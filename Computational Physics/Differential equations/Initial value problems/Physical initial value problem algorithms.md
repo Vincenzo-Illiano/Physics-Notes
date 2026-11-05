@@ -77,4 +77,4 @@ $$
 
 Substituting the exact solution into this unnormalized recurrence leaves a defect $O(h^4)$. This does not imply third-order global accuracy: after division by $h^2$, the differential-equation residual is $O(h^2)$, and position Verlet is globally second-order with consistent starting data.
 
-Position and velocity Verlet produce the same position recurrence in exact arithmetic with consistent initialization. Velocity Verlet also supplies velocities; position Verlet needs separate reconstruction. These methods are not directly applicable to a velocity-dependent Lorentz acceleration without modification, so the general RK4 formulation is useful for the [[Computational Physics/Differential equations/Initial value problems/Penning trap]].
+Position and velocity Verlet produce the same position recurrence in exact arithmetic with consistent initialization. Velocity Verlet also supplies velocities; position Verlet needs separate reconstruction. These methods are not directly applicable to a velocity-dependent Lorentz acceleration without modification, so the general RK4 formulation is useful for the [[Numerical integration of Penning trap ions]].

@@ -14,4 +14,4 @@ The magnetic part bends transverse motion and can provide radial confinement whe
 
 ## Topics
 
-- In [[Computational Physics/Differential equations/Initial value problems/Penning trap|Penning trap]] it's briefly discussed how to use numerical methods such as RK4 to integrate the Penning Trap equations of motions. 
+- In [[Numerical integration of Penning trap ions|Numerical integration of Penning trap ions]] it's briefly discussed how to use numerical methods such as RK4 to integrate the Penning Trap equations of motions. 

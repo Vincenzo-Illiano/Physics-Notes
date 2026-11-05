@@ -14,4 +14,4 @@ where $\gamma$ is the flexural rigidity. Nonzero buckled shapes occur at the mod
 
 ## Topics
 
-- In [[Computational Physics/Computational linear algebra/Matrix equations/Buckling beam|Buckling beam]] it's discussed how to discretize eq. (1) in order to turn it into a matrix equation and solve it numerically.
+- In [[Buckling beam matrix equations|Buckling beam matrix equations]] it's discussed how to discretize eq. (1) in order to turn it into a matrix equation and solve it numerically.

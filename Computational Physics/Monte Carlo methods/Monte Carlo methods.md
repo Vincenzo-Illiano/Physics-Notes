@@ -21,4 +21,4 @@ Assuming we can sample from the required distribution $p(x)$, a Monte Carlo appr
 
 Ordinary software random-number generators are **pseudorandom**: deterministic algorithms produce sequences designed to behave statistically like random samples. This is discussed in [[Random number generation]]. Sampling a nonuniform or high-dimensional target remains a separate algorithmic problem, dealt in [[Sampling of random variables]].
 
-[[The Ising model]] is a physical application in these notes. Specialized Monte Carlo approaches can also treat some differential equations, but random sampling alone is not a general replacement for ordinary time-integration methods.
+[[The Ising model with Monte Carlo methods]] is a physical application in these notes. Specialized Monte Carlo approaches can also treat some differential equations, but random sampling alone is not a general replacement for ordinary time-integration methods.
