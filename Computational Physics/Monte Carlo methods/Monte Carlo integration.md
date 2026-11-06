@@ -1,3 +1,5 @@
+Parent: [[Monte Carlo methods]]
+
 In this note we will describe a method known as **Monte Carlo integration**, a method that uses Monte Carlo simulations in order to perform numerical integration. this is particularly useful to perform numerical integration of integrals in many dimensions.
 
 ## 1D integrals

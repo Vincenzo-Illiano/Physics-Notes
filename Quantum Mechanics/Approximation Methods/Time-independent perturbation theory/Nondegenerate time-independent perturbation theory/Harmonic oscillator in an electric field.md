@@ -1,5 +1,5 @@
 Parent: [[Nondegenerate time-independent perturbation theory]]
-Model: [[The Quantum harmonic oscillator]]
+Model: [[Quantum harmonic oscillator]]
 
 In this note, we will use non degenerate time-indipendent perturbation theory to calculate the energy of a harmonic oscillator in a uniform electric field.
 

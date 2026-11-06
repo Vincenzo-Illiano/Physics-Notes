@@ -16,5 +16,5 @@ $$
 
 ## Topics
 
-- [[Helium atom (variational method) example]] discusses how to estimate the ground state of the helium atom using the variational method.
-- [[Helium atom (perturbation theory) example]] discusses how to estimate the ground state of the helium atom using perturbation theory.
+- [[Helium atom - variational method]] discusses how to estimate the ground state of the helium atom using the variational method.
+- [[Helium atom - perturbation theory]] discusses how to estimate the ground state of the helium atom using perturbation theory.

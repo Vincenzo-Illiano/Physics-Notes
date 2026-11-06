@@ -1,5 +1,5 @@
 Parent: [[Variational method]]
-Model: [[The Hydrogen atom]]
+Model: [[Hydrogen atom]]
 
 The **hydrogen molecular ion**, $\mathrm H_2^+$, consists of two protons and one electron. In this note, we will apply the [[Variational method]] to estimate its energy and determine whether molecular binding occurs.
 

@@ -1,4 +1,4 @@
-Parent: [[Approximation methods]]
+Parent: [[Time-indipendent perturbation theory]]
 
 In this note, we will briefly discuss perturbation theory in the situation where there are degenerate eigenstates. In particular we will see that the energy of degenerate eigenstates splits when a perturbation is included, and we will see how choosing a convenient base in the subspace of degenerate eigenstates can simplify the calculations.
 
@@ -8,7 +8,7 @@ Let $|a^{(0)}\rangle$ and $|b^{(0)}\rangle$ be orthonormal eigenstates of $H_0$ 
 $$
 |\psi^{(0)}\rangle=c_a|a^{(0)}\rangle+c_b|b^{(0)}\rangle.
 $$
-This is still an eigenstate of ${}H_{0}{}$ with energy ${}E^{(0)}{}$. The first-order equation (see [[Nondegenerate time-independent perturbation theory]]) is
+This is still an eigenstate of ${}H_{0}{}$ with energy ${}E^{(0)}{}$. The first-order equation (see (,) in [[Time-indipendent perturbation theory]]) is
 $$
 (H_0-E^{(0)})|\psi^{(1)}\rangle
 =(E^{(1)}-H')|\psi^{(0)}\rangle.

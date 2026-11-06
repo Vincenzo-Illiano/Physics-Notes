@@ -1,5 +1,5 @@
 Parent: [[Nondegenerate time-independent perturbation theory]]
-Model: [[The Quantum harmonic oscillator]]
+Model: [[Quantum harmonic oscillator]]
 
 In this note, we will apply [[Nondegenerate time-independent perturbation theory]] to a concrete example.
 
