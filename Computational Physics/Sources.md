@@ -1,0 +1,1 @@
+- A. Kvellestad, *Lecture notes FYS3150 - Computational Physics*, Fall 2026. ^lecture-notes
