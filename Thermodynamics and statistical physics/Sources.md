@@ -1,0 +1,1 @@
+- Schroeder, D. V. (2000). *An Introduction to Thermal Physics*. Addison–Wesley.^Schroeder

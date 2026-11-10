@@ -7,4 +7,4 @@ The system is in thermal contact with a bath at temperature $T$. Thermal fluctua
 
 ## Topics
 - [[The Ising model with Monte Carlo methods|Here]] we discuss how to simulate the Ising model using Markov Chain Monte Carlo methods
-- [[The Ising model with Boltzmann statistics|Here]] we discuss the model from a statistical physics point of view, making use of Boltzmann statistics
+- [[Ising model - Boltzmann statistics|Here]] we discuss the model from a statistical physics point of view, making use of Boltzmann statistics
