@@ -31,3 +31,8 @@ The procedure of the variational method can be generalized with the following st
 1. Choose a **normalized trial function** $|\psi\rangle$ with one or more free parameters.
 2. Compute $\langle H\rangle=\langle\psi|H|\psi\rangle$.
 3. Minimize $\langle H\rangle$ with respect to those parameters.
+
+To testo this procedure we will look at a series of examples, namely:
+- [[Quantum Harmonic oscillator - Variational method]]
+- [[Helium atom - variational method]]
+- [[Hydrogen molecule ion - variational method]]
