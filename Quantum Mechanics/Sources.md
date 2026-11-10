@@ -1,0 +1,2 @@
+- Berera, A., & Del Debbio, L. (2021). *Quantum Mechanics*. Cambridge University Press. [doi:10.1017/9781108525848](https://doi.org/10.1017/9781108525848)^Berera
+- Are Raklev, *Quantum Mechanics (FYS3180) Lecture notes*
