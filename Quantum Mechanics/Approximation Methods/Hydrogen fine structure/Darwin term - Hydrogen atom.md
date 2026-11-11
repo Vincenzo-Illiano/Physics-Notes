@@ -1,4 +1,4 @@
-Parent: [[Hyrdogen fine structure|Hydrogen fine structure]]
+Parent: [[Hydrogen fine structure|Hydrogen fine structure]]
 
 The **Darwin term** is a relativistic contact interaction obtained from the Dirac equation. In this note, we will use it to find a correction to the energies on the [[Hydrogen atom]] orbitals. This is done by using [[Time-indipendent perturbation theory]] with perturbation
 $$

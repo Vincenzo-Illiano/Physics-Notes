@@ -1,4 +1,4 @@
-Parent: [[Hyrdogen fine structure|Hydrogen fine structure]]
+Parent: [[Hydrogen fine structure|Hydrogen fine structure]]
 
 In the [[Hydrogen atom]], the electron's spin magnetic moment interacts with the magnetic field associated with its motion relative to the proton. In this note we will use [[Time-indipendent perturbation theory]] to find a correction to the orbital energies which accounts for this effect. The dipole interaction is $-\boldsymbol\mu_e\cdot\mathbf B$, with
 $$

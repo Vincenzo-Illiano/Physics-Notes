@@ -1,4 +1,4 @@
-Parent: [[Hyrdogen fine structure|Hydrogen fine structure]]
+Parent: [[Hydrogen fine structure|Hydrogen fine structure]]
 
 In this note, we will show how to correct the [[Hydrogen atom]]'s orbitals and energy levels with a relativistic factor using [[Nondegenerate time-independent perturbation theory]]. We will take the proton to be fixed and let $m_e$ be the electron mass. The unperturbed Hamiltonian and bound-state energies are
 $$
