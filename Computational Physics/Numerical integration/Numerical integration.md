@@ -15,5 +15,5 @@ This formula is useful because polynomials are easy to integrate. We can therefo
 
 ## References
 
-- [[Sources#^lecture-notes|A. Kvellestad, *Lecture notes FYS3150 - Computational Physics*, Fall 2026. ]]
+- See [[Computational Physics/Sources|Sources]].
 - ChatGPT 6.1 sol for grammar improvement

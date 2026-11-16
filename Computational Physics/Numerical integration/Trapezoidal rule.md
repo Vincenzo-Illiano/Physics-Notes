@@ -57,5 +57,5 @@ The difference $|T_2-T_1|$ serves as an error indicator. A better version of thi
 
 ## References
 
-- [[Sources#^lecture-notes|A. Kvellestad, *Lecture notes FYS3150 - Computational Physics*, Fall 2026]]
+See [[Computational Physics/Sources|Sources]].
 - ChatGPT 6.1 sol for assistance with language and graph.

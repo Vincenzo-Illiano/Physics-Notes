@@ -27,4 +27,4 @@ This is the **composite Simpson's rule**, with global error $O(h^4)$ on a fixed 
 
 ## References
 
-- [[Sources#^lecture-notes|A. Kvellestad, *Lecture notes FYS3150 - Computational Physics*, Fall 2026]]
+See [[Computational Physics/Sources|Sources]].

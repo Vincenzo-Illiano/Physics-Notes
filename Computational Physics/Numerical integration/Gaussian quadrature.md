@@ -10,4 +10,4 @@ For this reason, Newton-Cotes methods have ${}n{}$ free parameters. The idea of 
 
 ## References
 
-- [[Sources#^lecture-notes|A. Kvellestad, *Lecture notes FYS3150 - Computational Physics*, Fall 2026]]
+See [[Computational Physics/Sources|Sources]].

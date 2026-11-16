@@ -37,7 +37,11 @@ E_{nj}\simeq E_n^{(0)}\left[1+\frac{\alpha^2}{n^2}
 $$
 At this order the correction depends on $n$ and $j$, with no separate dependence on $\ell$ or $m_j$.
 
-If we now also include ...
+If the atom is also submerged in a magnetic field, we must also consider the [[Zeeman effect]], which adds an additional term to the energy correction: 
+$$
+\mu_{B}Bg_{\ell}m_{j}.
+$$
+Finally, if the proton-electron dipole interaction is to be considered, [[Hyperfine splitting]] occours.
 
 ## References
 
