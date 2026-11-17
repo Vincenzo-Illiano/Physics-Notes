@@ -10,3 +10,6 @@
 
 ## Physical systems and maths
 - These notes lack references. Maths notes haven't been added yet.
+
+## In general
+- Update all eqrefs with the new latex convention
