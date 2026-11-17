@@ -17,7 +17,10 @@ $$
 $$
 This formula can be conveniently rewritten as 
 $$
-\langle E \rangle = =-\frac{1}{Z}\frac{ \partial  }{ \partial \beta } \sum_{s}e^{-\beta E(s)} = -\frac{1}{Z}\frac{ \partial Z }{ \partial \beta }.
+\begin{equation}
+\langle E \rangle =-\frac{1}{Z}\frac{ \partial  }{ \partial \beta } \sum_{s}e^{-\beta E(s)} = -\frac{1}{Z}\frac{ \partial Z }{ \partial \beta }.
+\label{eq:PF_avgen}
+\end{equation}
 $$
 This shows that the average energy can be computed by knowing the partition function alone. Similar identities can be found with ${}\langle E^{2} \rangle{}$ and other functions of the energy.
 
