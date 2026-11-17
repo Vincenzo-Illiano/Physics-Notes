@@ -12,7 +12,10 @@ kT \ln(p(s))=kT \ln(\Omega_{R}(s))= S_{R}(s),
 $$
 where ${}S_{R}{}$ is the entropy of the reservoir. For two states ${}s_{1}{}$ and ${}s_{2}{}$, we thus have 
 $$
-\frac{p(s_{2})}{p(s_{1})} = e^{(S_{R}(s_{2})-S_{R}(s_{1}))/k}. \tag 1
+\begin{equation}
+\frac{p(s_{2})}{p(s_{1})} = e^{(S_{R}(s_{2})-S_{R}(s_{1}))/k}.
+\label{eq:CE_probrapp}
+\end{equation}
 $$
 This can be rewritten using the thermodynamic identity: 
 $$
@@ -20,9 +23,12 @@ dS_{R}=\frac{1}{T}(dU_{R}+PdV_{R}-\mu dN_{R}).
 $$
 If we assume that the system and the reservoir don't exchange particles, we can put ${}dN_{R}=0{}$. At the same time, if the system is small in comparison to the reservoir, we can assume that the term ${}P dV_{R}{}$ is negligible compared to the ${}dU_{R}{}$ term. Overall, we thus have 
 $$ 
-dS_{R}= \frac{dU_{R}}{T}=-\frac{dE}{T}, \tag 2
+\begin{equation}
+dS_{R}= \frac{dU_{R}}{T}=-\frac{dE}{T},
+\label{eq:CE_dentropy}
+\end{equation}
 $$
-where ${}dE{}$ is the energy of the system. Integrating this into eq. (1) we get
+where ${}dE{}$ is the energy of the system. Integrating this into eq. \eqref{eq:CE_probrapp} we get
 $$
 \frac{p(s_{2})}{p(s_{1})}=e^{-(E(s_{2})-E(s_{1}))/kT}.
 $$
@@ -32,7 +38,10 @@ p(s_{2}) \propto e^{-\beta E(s_{2})}, \quad \text{where } \beta=\frac{1}{kT}.
 $$
 We define the inverse of the proportionality constant as the **partition function** ${}Z(T){}$. This way
 $$
-\boxed{\rule{0pt}{1ex} \ p(s)=\frac{1}{Z}e^{-\beta E(s)},} \tag 3
+ \begin{equation}
+\boxed{\rule{0pt}{1ex} \ p(s)=\frac{1}{Z}e^{-\beta E(s)},}
+\label{eq:CE_Boltzmannprob}
+ \end{equation}
 $$
 which represents the probability to find the system in the microstate ${}s{}$ when the system is in thermal equilibrium with a thermal reservoir. 
 Note that this does not contradict the fundamental assumption of statistical physics, since the system in question is *not* isolated. 
@@ -41,10 +50,22 @@ Since we expect probabilities to be normalized, we have that
 $$
 1= \sum_{s}p(s)=\frac{1}{Z}\sum_{s}e^{-\beta E(s)} \implies \boxed{ \rule{0pt}{3ex} \ Z = \sum_{s} e^{- \beta E(s)} \ }
 $$
-Knowing the partition function of a system turns out to be particularly useful, as the latter can be used to determine a lot of other quantities. Properties of the partition function are discussed in more detail in [[Partition function]].
+The partition function can be used to calculate the average value of any statistical quantity ${}X(s){}$, 
+$$
+\begin{equation}
+\langle X \rangle = \frac{1}{Z} \sum_{s}X(s)e^{-\beta E(s)},
+\label{eq:CE_avgvalue}
+\end{equation}
+$$
+which simply weights every possible value ${}X{}$ can take by its probability. 
+Knowing the partition function of a system turns out to be particularly useful, as it can be used to determine a lot of other quantities. Properties of the partition function are discussed in more detail in [[Partition function]].
 
-Also note that the probability distribution in eq. (3) describes the probability distribution of *microstates*, not energies. In other words 
+Also note that the probability distribution in eq. \eqref{eq:CE_Boltzmannprob} describes the probability distribution of *microstates*, not energies. In other words 
 $$
 p(E)\neq \frac{1}{Z}e^{-\beta E(s)},
 $$
 since degeneracies must be accounted for.
+
+## References
+
+See [[Thermodynamics and statistical physics/Sources|Sources]]
