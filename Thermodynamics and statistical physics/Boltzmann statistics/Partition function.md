@@ -99,7 +99,10 @@ Z  & = \sum_{(s_{1}, s_{2}, \dots)}e^{-\beta E(s_{1})}e^{-\beta E(s_{2})}\dots  
 $$
 In the case where the particles are indistinguishable, we need to pay attention to the fact that permutations of the states of the subsystems do not change the state of the overall composite system. Using the equation above would thus double count some of the states. To overcome this we should divide by ${}N!{}$. If we also consider the fact that for indistinguishable subsystems ${}Z_{1} = Z_{2} = \dots{}$, we have that 
 $$
+\begin{equation}
 Z = \frac{1}{N!}Z_{1}^{N}.
+\label{eq:PF_composite_ind}
+\end{equation}
 $$
 This, however, is only true if two subsystems cannot be in the same state. In general, this formula is only valid for non dense systems, where this assumption is generally true.
 

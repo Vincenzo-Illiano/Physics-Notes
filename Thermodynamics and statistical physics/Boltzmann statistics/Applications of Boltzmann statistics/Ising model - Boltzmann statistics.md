@@ -1,54 +1,27 @@
-%%This note is highly incomplete and needs review!%%
+%%This note has been partially reviewed but it's still mostly incomplete%%
 
 Parent: [[Applications of Boltzmann statistics]]
+
+In this note we will calculate the average energy and the average magnetization of a ferromagnet using the [[Ising model|2D Ising Model]]. 
+
 ## Microstates and observables
 
-Let $L$ be the number of sites along each side, so the number of spins is $N=L^2$. A **microstate** specifies every spin:
+Let $L$ be the number of sites along each side, so the number of spins is $N=L^2.$A **microstate** specifies every spin:
 $$
-\mathbf S=(s_1,s_2,\ldots,s_N).
+\mathbf s=(s_1,s_2,\ldots,s_N).
 $$
-The energy is
-
+The energy is given by
 $$
 E(\mathbf S)=-J\sum_{\langle k,l\rangle}s_ks_l,\qquad J>0,
 $$
-
-where each nearest-neighbour bond is counted once. Aligned spins lower the energy, which makes this a **ferromagnetic** model. A boundary convention is needed for a finite lattice; the original notes do not specify one.
+where each nearest-neighbour bond is counted once. Aligned spins lower the energy, which makes this a **ferromagnetic** model. In addition, we will use *periodic boundary conditions*, meaning that every spin has exactly four neighbours.
 
 The **magnetization** is
-
 $$
 M(\mathbf S)=\sum_{i=1}^N s_i.
 $$
-
 The **energy degeneracy** $g(E)$ is the number of microstates with energy $E$.
 
 ![[Computational Physics/Assets/ising-lattice.png]]
 
 *An illustrative spin configuration. Blue and orange denote $+1$ and $-1$ spins; the inset marks the four nearest neighbours of an interior site. This is a schematic, not an equilibrium simulation.*
-
-## Thermal equilibrium
-
-The Boltzmann probability of a microstate is
-
-$$
-p(\mathbf S;T)=\frac{e^{-\beta E(\mathbf S)}}{Z},\qquad
-\beta=\frac{1}{k_BT},\qquad
-Z=\sum_{\mathbf S}e^{-\beta E(\mathbf S)}.
-$$
-
-Here $Z$ is the **partition function**. Grouping microstates with the same energy gives
-
-$$
-p_E(E;T)=\frac{g(E)e^{-\beta E}}{Z}.
-$$
-
-These distributions determine averages such as $\langle E\rangle$ and $\langle M\rangle$, from which thermodynamic quantities such as heat capacity and magnetic susceptibility can be obtained. 
-
-## Temperature and lattice size
-
-The aim is to study observables as functions of $T$ and $L$, and estimate the critical temperature in the thermodynamic limit $L\to\infty$. Below that temperature, the infinite system can have spontaneous magnetization; above it, spontaneous magnetization vanishes.
-
-A finite lattice has a rounded crossover rather than a true thermodynamic singularity. Moreover, at zero field its fully sampled equilibrium distribution is invariant under flipping every spin, so $\langle M\rangle=0$ even when low-temperature configurations are strongly ordered. Quantities such as $\langle|M|\rangle$ distinguish this order without cancellation between opposite magnetizations.
-
-For comparisons between lattice sizes, use observables per spin, for example $e=E/N$ and $m=M/N$.
