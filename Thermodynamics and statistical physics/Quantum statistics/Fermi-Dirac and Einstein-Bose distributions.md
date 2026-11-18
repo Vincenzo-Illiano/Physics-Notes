@@ -7,7 +7,10 @@ To compute this quantity the [[Grand canonical ensemble]] turns out to be partic
 
 Let then the system be a quantum state with energy ${}\epsilon{}$, which can contain some number of particles. In particular, a microstate of this system is solely defined by how many particles there are in that state. If the system has ${}n{}$ particles and we neglect the interaction between these particle, its energy is going to be ${}n \epsilon{}$. If we assume that the system is in thermal equilibrium with a reservoir (which in this case is simply the other states), then we can apply [[Grand canonical ensemble|Gibbs distribution]]: 
 $$
-p(n)= \frac{1}{\mathcal Z} e^{-(n\epsilon - \mu n)/ kT}, \tag 1
+\begin{equation}
+p(n)= \frac{1}{\mathcal Z} e^{-(n\epsilon - \mu n)/ kT}, 
+\label{eq:FDEB_prob}
+\end{equation}
 $$
 and we can use this to compute the occupancy of that state.
 
@@ -15,7 +18,7 @@ The calculation of the occupancy is different whether the particles that make up
 
 ## Fermi-Dirac distribution
 
-In a system made entirely of fermions, ${}n{}$ can only be ${}0{}$ or ${}1{}$. In this case, the occupancy of a state is simply the probability of that state to have a particle, which is given by Eq. (1) 
+In a system made entirely of fermions, ${}n{}$ can only be ${}0{}$ or ${}1{}$. In this case, the occupancy of a state is simply the probability of that state to have a particle, which is given by Eq. \eqref{eq:FDEB_prob}
 $$
 \boxed{p( \text{full}) = \bar{n}(\epsilon) = \frac{e ^{-( \epsilon - \mu )/kT}}{1 + e^{-(\epsilon - \mu)/ k T}}= \frac{1}{1+ e^{(\epsilon - \mu)/ kT}}}.
 $$
