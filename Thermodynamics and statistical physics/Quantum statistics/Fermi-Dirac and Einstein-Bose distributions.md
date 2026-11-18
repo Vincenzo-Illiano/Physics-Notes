@@ -20,7 +20,10 @@ The calculation of the occupancy is different whether the particles that make up
 
 In a system made entirely of fermions, ${}n{}$ can only be ${}0{}$ or ${}1{}$. In this case, the occupancy of a state is simply the probability of that state to have a particle, which is given by Eq. \eqref{eq:FDEB_prob}
 $$
+\begin{equation}
 \boxed{p( \text{full}) = \bar{n}(\epsilon) = \frac{e ^{-( \epsilon - \mu )/kT}}{1 + e^{-(\epsilon - \mu)/ k T}}= \frac{1}{1+ e^{(\epsilon - \mu)/ kT}}}.
+\label{eq:FDEB_Fermidirac}
+\end{equation}
 $$
 This formula is known as the **Fermi-Dirac distribution**, and is very important to compute the properties of fermi gases, such as electron gases, which are fundamental to model electrons in metals.
 
